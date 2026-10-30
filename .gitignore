@@ -1,3 +1,4 @@
+```gitignore
 # Prerequisites
 *.d
 
@@ -56,13 +57,33 @@ compile_commands.json
 *.log
 *.bak
 *.swp
+*~
 
 # vcpkg
 vcpkg_installed/
 
-# debug information files
+# Debug information files
 *.dwo
 
-# test output & cache
+# Test output & cache
 Testing/
 .cache/
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+*.gcda
+*.gcno
+*.gcov
+
+# Profiling output
+*.prof
+*.profraw
+```
+
